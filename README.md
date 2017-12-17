@@ -18,6 +18,7 @@ namespace WindowsFormsApplication3
 
         private void button1_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Stana li baa","???");
             int a = 0;
                 a=Convert.ToInt32(textBox2.Text);
                 for (int i = 0; i <= a; i++)
